@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\mydoc\\ProjectS\\WhatsReact"
+		},
+		{
+			"path": "C:\\mydoc\\ProjectS\\SandBox"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GoodDayMaker"
+	}
+}
