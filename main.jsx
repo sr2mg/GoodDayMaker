@@ -42,9 +42,10 @@ function App(){
     //return部分多分完成
     return(
         <div>
+            <MatterInput addMatter ={addMatter} addVal={addVal} matters={matters} />
             <div>今日の幸福度:{GoodVal}</div>
             <GBlist matters ={matters} eraseMatter={erase}/>
-            <MatterInput addMatter ={addMatter} addVal={addVal} matters={matters} />
+            
         </div>
     );
 }
