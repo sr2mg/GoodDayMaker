@@ -15,9 +15,9 @@ function Matter(props){
         if(visibled){
             return(
                 <div className={[isgoo ? 'good' :'bad','matter'].join('')}>
-                <div className="content">内容：{props.content}</div>
+                <div className="content">出来事：{props.content}</div>
                 <div className="goodvalue">良かった度：{props.goodvalue}</div>
-                <button onClick={erase}>削除</button>
+                <div className="erase-Button" onClick={erase}>削除</div>
             </div>
             )
         }else{

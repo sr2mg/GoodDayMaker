@@ -1,25 +1,11 @@
 function App(){
 
     const [matters,setMatters]=React.useState([
+
         {
             id:0,
-            content:'朝起きれた',
-            goodvalue:5
-        },
-        {
-            id:1,
             content:'これを起動した',
             goodvalue:5
-        },
-        {
-            id:2,
-            content:'夜寝る',
-            goodvalue:3
-        },
-        {
-            id:3,
-            content:'眠い',
-            goodvalue:-3
         }
     ]);
 

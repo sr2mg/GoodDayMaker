@@ -32,7 +32,9 @@ function MatterInput(props){
     //ここでrefをセット
     return(
         <div>
+            <div>出来事</div>
             <div><textarea className="matter-textarea" ref={textareaRef} required></textarea></div>
+            <div>良かった度</div>
             <div><input type="number" className="number-area" ref={numberRef} min="-20" max="20" required></input></div>
             <div onClick={sendMatter} className="send-matter">幸福決定</div>
         </div>
