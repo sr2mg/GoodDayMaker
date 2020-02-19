@@ -4,12 +4,17 @@ function App(){
 
 		{
 			id:0,
+			content:"起きた",
+			goodvalue:5
+		},		
+		{
+			id:1,
 			content:"これを起動した",
 			goodvalue:5
 		}
 	]);
 
-	const [GoodVal,setVal] =React.useState(10)//デフォが0
+	const [GoodVal,setVal] =React.useState(10);//デフォが0
 
 	//usecallbackを用いたaddMatter関数の定義。setmattersにて今までのmatterにプラスでやれる
 	const addMatter = React.useCallback((matter)=>setMatters((prev)=>[...prev,matter]),[setMatters]);

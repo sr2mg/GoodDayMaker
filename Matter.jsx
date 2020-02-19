@@ -14,18 +14,18 @@ function Matter(props){
 	const VisCheck=()=>{
 		if(visibled){
 			return(
-			    <div className={[isgoo ? 'good' :'bad','matter'].join('')}>
-				    <div className="content">出来事：{props.content}</div>
-				    <div className="goodvalue">良かった度：{props.goodvalue}</div>
-				    <div className="erase-Button" onClick={erase}>削除</div>
-			    </div>
+				<div className={[isgoo ? "good" :"bad","matter"].join("")}>
+					<div className="content">出来事：{props.content}</div>
+					<div className="goodvalue">良かった度：{props.goodvalue}</div>
+					<div className="erase-Button" onClick={erase}>削除</div>
+				</div>
 			);
 		}else{
 			return (
-                <div></div>
+				<div></div>
 			);
 		}
-	}
+	};
 	
 
 	if(props.goodvalue<0)isgoo=false;

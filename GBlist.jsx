@@ -13,8 +13,8 @@ function GBlist(props){
 	));
 
 	return( 
-	<div>
-		<div className="GBlist">{MatterList}</div>
-	</div>
+		<div>
+			<div className="GBlist">{MatterList}</div>
+		</div>
 	);
 }
